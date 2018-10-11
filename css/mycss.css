@@ -1,0 +1,119 @@
+/*
+Custom CSS
+*/
+
+
+
+body{
+  
+/*  background-color: #141f24;*/
+/*  padding-top: 100px;*/
+  font-family: 'Warnock Pro';
+}
+
+
+
+h1{
+    font-size: 128px;
+    color: #f25261;
+}
+
+h3{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 72px;
+    font-family: 'Warnock Pro';
+    font-weight: 200;
+    color: 141f24;
+}
+
+p{
+    font-size: 24px;
+    font-family: 'Warnock Pro';
+    font-weight: 400;
+    color: 141f24; 
+}
+
+/*this is my home main container*/
+
+.home{
+    background-color: #141f24;
+}
+/*this is my about main container*/
+.ab{
+    background-color: #f7f7f7;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+/*this is my about pink row*/
+.pink{
+    padding-top: 100px;
+    background-color: #f25261;
+}
+/* 
+# Responsive breakpoints
+# https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints
+Extra small   <576px  	.col-
+Small         ≥576px    .col-sm-
+Medium        ≥768px    .col-md-
+Large         ≥992px    .col-lg-
+Extra large   ≥1200px   .col-xl-
+*/
+
+/* Apply these rules if the screen width is LESS than 576px */
+/*this is coloured border code*/
+/*
+@media(max-width:576px){
+  div[class^="col"]{
+    border-style: solid;
+    border-color:black;
+  }
+}
+*/
+
+/* Apply these rules if the screen width is GREATER than 576px */
+
+/*
+@media (min-width: 576px) {
+  div[class^="col"]{
+    border-style: solid;
+    border-color:white;
+  }
+}
+*/
+
+/* Apply these rules if the screen width is GREATER than 768px */
+
+/*
+@media (min-width: 768px) {
+  div[class^="col"]{
+    border-style: solid;
+    border-color:blue;
+  }
+}
+*/
+
+/* Apply these rules if the screen width is GREATER than 992px */
+
+/*
+@media (min-width: 992px) {
+  div[class^="col"]{
+    border-style: solid;
+    border-color:yellow;
+  }
+}
+*/
+
+/* Apply these rules if the screen width is GREATER than 1200px */
+
+/*
+@media (min-width: 1200px) {
+  div[class^="col"]{
+    border-style: solid;
+    border-color:red;
+  }
+}*/
