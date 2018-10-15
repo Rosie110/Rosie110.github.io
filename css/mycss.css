@@ -11,7 +11,32 @@ body{
   font-family: 'Warnock Pro';
 }
 
+/*this is my home container for text over image*/
+.home{
+    background-color: #141f24;
+    z-index: 50;
+    position: relative;
+}
 
+.img1{
+    
+    padding-top: 100px;
+   
+}
+
+.topleft {
+    position: absolute;
+    font-size: 128px;
+    color: #f25261;
+}
+
+.topright{
+    position: absolute;
+    font-size: 128px;
+    color: #f25261;
+    text-align: left ;
+    
+}
 
 h1{
     font-size: 128px;
@@ -26,7 +51,7 @@ h2{
     font-size: 72px;
     font-family: 'Warnock Pro';
     font-weight: 200;
-    color: 141f24;
+    color: #141f24;
 }
 
 p{
@@ -38,9 +63,68 @@ p{
 
 /*this is my home main container*/
 
-.home{
+
+.img1{
+
+    z-index:-1;
+    position: absolute;
+    padding-top: 150px;
     background-color: #141f24;
+    padding-bottom: 100px;
 }
+.img2{
+    z-index: 50;
+    position: inherit;
+    padding-top: 350px;
+    padding-bottom: 100px;
+    
+}
+
+.img3{
+    z-index: 50;
+    position: inherit;
+    padding-top: 350px;
+    
+}
+
+
+.topleft{
+/*    z-index: 50;*/
+    position:relative;
+    padding-top: 100px;
+    
+}
+
+.topright{
+/*    z-index: 50;*/
+    position: relative;
+    padding-top: 100px;
+}
+
+
+
+/*ABOUT PAGE CSS*/
+/*styling the nav*/
+
+.aboutnav{
+    font-size:30px;
+    font-weight: 200;
+    
+}
+
+.worknav{
+    font-size:30px;
+    font-weight: 200;
+    
+}
+
+.contactnav{
+    font-size:30px;
+    font-weight: 200;
+    
+}
+
+
 /*this is my about main container*/
 .ab{
     background-color: #f7f7f7;
@@ -52,8 +136,239 @@ p{
 /*this is my about pink row*/
 .pink{
     padding-top: 100px;
+    padding-bottom: 100px;
     background-color: #f25261;
 }
+
+/*this is my gif container*/
+.thinking{
+    background-color:#141f24;
+}
+  
+/*this is my moreaboutmecontainter*/
+.moreabout{
+    background-color: #f7f7f7;
+}
+
+.rowmore{
+    padding-top:100px;
+}
+
+h4{
+    font-size: 24px;
+    font-family: 'Warnock Pro';
+    font-weight: 700;
+    font-style: italic;
+    color: #141f24;
+}
+
+.rowlinks{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    
+}
+
+.link1{}
+
+a.effect-underline {
+    
+	 color: #141f24;
+}
+
+h2 mark {
+    background:none;
+}
+
+
+h2:hover mark {
+   background-color: #f7f7f7;
+   text-decoration: underline;
+   color: #141f24;
+}
+
+.link2{
+    
+/*  text-decoration: underline;*/
+}
+
+/*CLOSING ABOUT PAGE CSS*/
+
+
+
+
+
+/*WORK PAGE CSS*/
+
+/*CONTAINER 1*/
+.workbg{
+    background-color:#f7f7f7;
+    z-index:50;
+    position: relative;
+}
+
+
+.lookleft{
+    /* z-index:50;*/
+     position:absolute;
+     padding-top: 200px;
+    
+}
+
+.placeholder{
+    /*z-index:50;*/
+    position:inherit;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+/*CONTAINER 2*/
+
+.workmotion{
+    background-color:#f7f7f7;
+    
+}
+
+/*CONTAINER 3*/
+
+.accordian{
+    background-color: #f7f7f7;
+}
+
+.rowdropdown{
+    padding-top: 100px;
+}
+
+/*PROJECT LINKS CONTAINER*/
+
+/*
+a{
+    text-decoration:none;
+    color: none;
+}
+*/
+
+
+.projectlinks{
+    background-color:#f7f7f7;
+    z-index: 50;
+    position: relative;
+}
+
+/*SKIN HUNGER TEXT AND IMG*/
+.skinhead{
+    
+     z-index:50;
+     position:absolute;
+     padding-top: 230px;
+     color: #f25261;
+     
+}
+
+
+skinhead:hover{
+    text-decoration: underline;
+    color: #f25261
+}
+
+
+.skinimg{
+    /* position:inherit;*/
+     padding-top: 100px;
+     padding-bottom: 100px;
+    
+}
+
+/*CHANGING FUTURES TEXT AND IMG*/
+
+.futureshead{
+     z-index:50;
+     position:absolute;
+     padding-top: 230px;
+     color: #f25261;
+    
+}
+
+.futuresimg{
+    /* position:inherit;*/
+     padding-top: 100px;
+     padding-bottom: 100px;
+    
+}
+
+/*PUSH AND PULL TEXT AND IMG*/
+
+.push{
+     z-index:50;
+     position:absolute;
+     padding-top: 230px;
+     color: #f25261;
+    
+}
+
+.pushimg{
+    /* position:inherit;*/
+     padding-top: 100px;
+     padding-bottom: 100px;
+    
+}
+
+
+/*FOOTER */
+footer {
+   
+    
+   width: 100%;
+   background-color: #141f24;
+   color: #141f24;
+   text-align: left;
+    
+   
+
+}
+
+.foot{
+    font-family: 'Warnock Pro';
+    font-weight:100;
+    font-size: 16px;
+    line-height: 24px;
+    color:#f7f7f7;
+    background-color: #141f24;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+h5{
+    font-family: 'Warnock Pro';
+    font-weight:100;
+    font-size: 20px;
+    line-height: 28px;
+    color:#f7f7f7;
+    
+}
+.h5one{
+    color: #141f24;
+}
+
+/*underline classes for links in footer*/
+.aboutu{
+    text-decoration: underline;
+    
+}
+
+.foliou{
+    text-decoration: underline;
+    
+}
+
+.contactu{
+    text-decoration: underline;
+    
+}
+
 /* 
 # Responsive breakpoints
 # https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints
