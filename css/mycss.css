@@ -9,6 +9,7 @@ body{
 /*  background-color: #141f24;*/
 /*  padding-top: 100px;*/
   font-family: 'Warnock Pro';
+    
 }
 
 /*this is my home container for text over image*/
@@ -16,6 +17,8 @@ body{
     background-color: #141f24;
     z-index: 50;
     position: relative;
+    
+    
 }
 
 .img1{
@@ -107,19 +110,35 @@ p{
 /*styling the nav*/
 
 .aboutnav{
-    font-size:30px;
+    font-size:24px;
     font-weight: 200;
+   
     
 }
 
+/*BLENDING THE NAV TO THE BACKGROUND COLOURS*/
+/*
+
+.blend {
+mix-blend-mode: difference;
+    
+}
+*/
+
 .worknav{
-    font-size:30px;
+    font-size:24px;
     font-weight: 200;
     
 }
 
 .contactnav{
-    font-size:30px;
+    font-size:24px;
+    font-weight: 200;
+    
+}
+
+.skinhungernav{
+    font-size:24px;
     font-weight: 200;
     
 }
@@ -260,7 +279,7 @@ a{
      z-index:50;
      position:absolute;
      padding-top: 230px;
-     color: #f25261;
+     
      
 }
 
@@ -311,6 +330,55 @@ skinhead:hover{
      padding-bottom: 100px;
     
 }
+
+
+
+
+
+/*SKIN HUNGER CSS*/
+/*SKIN HUNGER CONTAINER 1*/
+
+.shbanner{
+    background-color:#f7f7f7;
+    z-index: -1;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+/*SKIN HUNGER TEXT AND IMG*/
+.shblack{
+    
+     z-index:50;
+     position:absolute;
+     padding-top: 400px;
+     color: #f25261;
+     padding-left: 100px;
+}
+
+/*SKIN HUNGER CONTAINER 2*/
+
+.sh2{
+    background-color: #f7f7f7;
+}
+
+.skininfo{
+    padding-top: 200px;
+}
+
+.skininfotext{
+    padding-top:100px;
+   
+}
+
+.skinposter{
+    padding-top: 100px;
+}
+
+.skinbook{
+    padding-top: 100px;
+}
+
+
 
 
 /*FOOTER */
@@ -368,6 +436,7 @@ h5{
     text-decoration: underline;
     
 }
+
 
 /* 
 # Responsive breakpoints
