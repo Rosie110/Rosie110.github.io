@@ -1,0 +1,683 @@
+/*
+Custom CSS
+*/
+
+
+
+body{
+  
+/*  background-color: #141f24;*/
+/*  padding-top: 100px;*/
+  font-family: 'Warnock Pro';
+ 
+  
+    
+}
+
+/*this is my home container for text over image*/
+.home{
+    background-color: #141f24;
+    z-index: 50;
+    position: relative;
+    
+    
+}
+
+.img1{
+    
+    padding-top: 100px;
+   
+}
+
+.topleft {
+    position: absolute;
+    font-size: 128px;
+    color: #f25261;
+}
+
+.topright{
+    position: absolute;
+    font-size: 128px;
+    color: #f25261;
+    text-align: left ;
+    
+}
+
+h1{
+    font-size: 128px;
+    color: #f25261;
+    
+}
+
+.mobileonly {
+    
+    display: none;
+}
+
+
+
+
+h1:hover{
+    text-decoration: underline;
+}
+
+h3{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 72px;
+    font-family: 'Warnock Pro';
+    font-weight: 200;
+    color: #141f24;
+}
+
+p{
+    font-size: 24px;
+    font-family: 'Warnock Pro';
+    font-weight: 400;
+    color: 141f24; 
+}
+
+/*this is my home main container*/
+
+
+.img1{
+
+    z-index:-1;
+    position: absolute;
+    padding-top: 150px;
+    background-color: #141f24;
+    padding-bottom: 100px;
+}
+.img2{
+    z-index: 50;
+    position: inherit;
+    padding-top: 350px;
+    padding-bottom: 100px;
+    
+}
+
+.img3{
+    z-index: 50;
+    position: inherit;
+    padding-top: 350px;
+    
+    
+}
+
+
+.topleft{
+/*    z-index: 50;*/
+    position:relative;
+    padding-top: 100px;
+    text-decoration: none;
+    
+}
+
+
+
+.topright{
+/*    z-index: 50;*/
+    position: relative;
+    padding-top: 100px;
+    text-decoration: none;
+}
+
+
+
+/*ABOUT PAGE CSS*/
+/*styling the nav*/
+
+.aboutnav{
+    font-size:24px;
+    font-weight: 200;
+   
+    
+}
+
+/*BLENDING THE NAV TO THE BACKGROUND COLOURS*/
+/*
+
+.blend {
+mix-blend-mode: difference;
+    
+}
+*/
+
+.worknav{
+    font-size:24px;
+    font-weight: 200;
+    
+}
+
+.contactnav{
+    font-size:24px;
+    font-weight: 200;
+    
+}
+
+.skinhungernav{
+    font-size:24px;
+    font-weight: 200;
+    
+}
+
+
+/*this is my about main container*/
+.ab{
+    background-color: #f7f7f7;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.row1{
+    
+    padding-top:80px;
+    padding-bottom: 100px;
+}
+
+
+/*this is my about pink row*/
+.pink{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f25261;
+}
+
+/*this is my gif container*/
+.thinking{
+    background-color:#141f24;
+}
+  
+/*this is my moreaboutmecontainter*/
+.moreabout{
+    background-color: #f7f7f7;
+}
+
+.rowmore{
+    padding-top:100px;
+}
+
+h4{
+    font-size: 24px;
+    font-family: 'Warnock Pro';
+    font-weight: 700;
+    font-style: italic;
+    color: #141f24;
+}
+
+.rowlinks{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    
+}
+
+
+
+a.effect-underline {
+    
+	 color: #141f24;
+}
+
+a.effect-underline3 {
+    
+ 
+	 color: #141f24;
+}
+
+
+
+h2 mark {
+    background:none;
+}
+
+
+h2:hover mark {
+   background-color: #f7f7f7;
+   text-decoration: underline;
+   color: #141f24;
+}
+
+.link2{
+    
+/*  text-decoration: underline;*/
+}
+
+/*CLOSING ABOUT PAGE CSS*/
+
+
+
+
+
+/*WORK PAGE CSS*/
+
+
+/*GET RID OF THAT STUPID BLUE*/
+
+
+
+
+/*CONTAINER 1*/
+.workbg{
+    background-color:#f7f7f7;
+    z-index:50;
+    position: relative;
+}
+
+
+.lookleft{
+    /* z-index:50;*/
+     position:absolute;
+     padding-top: 200px;
+     
+    
+}
+
+.lookleft:hover{
+    text-decoration: none;
+}
+
+.placeholder{
+    /*z-index:50;*/
+    position:inherit;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+/*CONTAINER 2*/
+
+.workmotion{
+    background-color:#f7f7f7;
+    
+}
+
+
+/*CONTAINER 3*/
+
+.accordian{
+    background-color: #f7f7f7;
+}
+
+.rowdropdown{
+    padding-top: 100px;
+}
+
+/*PROJECT LINKS CONTAINER*/
+
+/*
+a{
+    text-decoration:none;
+    color: none;
+}
+*/
+
+
+.projectlinks{
+    background-color:#f7f7f7;
+    z-index: 50;
+    position: relative;
+}
+
+/*SKIN HUNGER TEXT AND IMG*/
+/*SKIN HUNGER H1 CLASS FOR Z INDEX*/
+.skinhead{
+    
+     z-index:50;
+     position:absolute;
+     padding-top: 230px;
+     color: #f25261;
+     text-decoration: none;
+     
+}
+
+/*SKIN HUNGER A HREF CLASS FOR LINK NOT TO TURN BLUE*/
+.skinme{
+     color: #f25261;
+     
+}
+
+.skinme:hover{
+    color: #f25261;
+    
+}
+
+.skinimg{
+    /* position:inherit;*/
+     padding-top: 100px;
+     padding-bottom: 100px;
+    
+}
+
+/*CHANGING FUTURES TEXT AND IMG*/
+/*CHANGING FUTURES*/
+
+.futurehead{
+     z-index:50;
+     position:absolute;
+     padding-top: 200px;
+     color: #f25261;
+    
+}
+/*CHANGING FUTURES A HREF CLASS FOR LINK NOT TO TURN BLUE*/
+
+.changeme{
+     color: #f25261;
+    
+}
+.changeme:hover{
+    color: #f25261;
+    
+}
+
+.futuresimg{
+    /* position:inherit;*/
+     padding-top: 100px;
+     padding-bottom: 100px;
+    
+}
+
+
+/*PUSH AND PULL TEXT AND IMG*/
+
+/*PUSH AND PULL H1 CLASS FOR Z INDEX*/
+.push{
+     z-index:50;
+     position:absolute;
+     padding-top: 230px;
+     color: #f25261;
+    
+}
+/*PUSH AND PULL A HREF CLASS FOR LINK NOT TO TURN BLUE*/
+
+.pushme{
+    color: #f25261;
+    
+    
+}
+.pushme:hover{
+    color: #f25261;
+}
+
+.pushimg{
+    /* position:inherit;*/
+     padding-top: 100px;
+     padding-bottom: 100px;
+    
+}
+
+
+
+
+
+/*SKIN HUNGER CSS*/
+/*SKIN HUNGER CONTAINER 1*/
+
+.shbanner{
+    background-color:#f7f7f7;
+    z-index: -1;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+/*SKIN HUNGER TEXT AND IMG*/
+.shblack{
+    
+     z-index:50;
+     position:absolute;
+     padding-top: 400px;
+     color: #f25261;
+     padding-left: 100px;
+}
+
+/*SKIN HUNGER CONTAINER 2*/
+
+.sh2{
+    background-color: #f7f7f7;
+}
+
+.skininfo{
+    padding-top: 200px;
+}
+
+.skininfotext{
+    padding-top:50px;
+    padding-bottom: 100px;
+    
+   
+}
+
+.skinposter{
+    padding-top: 100px;
+}
+
+.skinbook{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.skinhwebwalk{
+    padding-bottom: 100px;
+}
+
+.bag{
+    padding-top: 100px;
+}
+.butts{
+    padding-top: 100px;
+}
+
+.changeplus{
+    padding-top: 100px;
+    
+}
+
+
+
+
+
+/*CONTACT PAGE CSS*/
+
+.sayhi{
+    padding-top: 200px;
+}
+
+.contactmessage{
+    font-style: italic;
+    
+}
+
+.blog{
+    padding-top: 200px;
+}
+
+
+
+
+
+
+/*CLOSING CONTACT PAGE CSS*/
+
+
+
+
+
+
+/*FOOTER */
+footer {
+   
+    
+   width: 100%;
+   background-color: #141f24;
+   color: #141f24;
+   text-align: left;
+    
+   
+
+}
+
+.foot{
+    font-family: 'Warnock Pro';
+    font-weight:100;
+    font-size: 16px;
+    line-height: 24px;
+    color:#f7f7f7;
+    background-color: #141f24;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+h5{
+    font-family: 'Warnock Pro';
+    font-weight:100;
+    font-size: 20px;
+    line-height: 28px;
+    color:#f7f7f7;
+    
+}
+.h5one{
+    color: #141f24;
+}
+
+/*underline classes for links in footer*/
+.aboutu{
+    text-decoration: underline;
+    
+}
+
+.foliou{
+    text-decoration: underline;
+    
+}
+
+.contactu{
+    text-decoration: underline;
+    
+}
+
+
+@media only screen and (max-width: 576px)
+{
+    
+h1{
+    font-size: 72px;
+    color: #f25261;
+        
+        
+}
+h2{
+    font-size: 48px;
+
+}
+
+p{
+    font-size:20px;
+    }
+    
+.nomobile{
+    display:none;
+        
+    }
+
+.topleft{
+    
+     font-size: 90px;   
+    }
+        
+
+
+.img1{
+    padding-bottom:200px;
+}
+
+.img2{
+    display:none;
+}
+
+.img3{
+    
+display: none;
+}
+
+.home{
+    background-color: #141f24;
+
+}
+
+}   
+
+
+
+    
+    
+    
+    
+    
+    
+/* 
+# Responsive breakpoints
+# https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints
+Extra small   <576px  	.col-
+Small         ≥576px    .col-sm-
+Medium        ≥768px    .col-md-
+Large         ≥992px    .col-lg-
+Extra large   ≥1200px   .col-xl-
+*/
+
+/* Apply these rules if the screen width is LESS than 576px */
+/*this is coloured border code*/
+/*
+@media(max-width:576px){
+  div[class^="col"]{
+    border-style: solid;
+    border-color:black;
+  }
+}
+*/
+
+/* Apply these rules if the screen width is GREATER than 576px */
+
+/*
+@media (min-width: 576px) {
+  div[class^="col"]{
+    border-style: solid;
+    border-color:white;
+  }
+}
+*/
+
+/* Apply these rules if the screen width is GREATER than 768px */
+
+/*
+@media (min-width: 768px) {
+  div[class^="col"]{
+    border-style: solid;
+    border-color:blue;
+  }
+}
+*/
+
+/* Apply these rules if the screen width is GREATER than 992px */
+
+/*
+@media (min-width: 992px) {
+  div[class^="col"]{
+    border-style: solid;
+    border-color:yellow;
+  }
+}
+*/
+
+/* Apply these rules if the screen width is GREATER than 1200px */
+
+/*
+@media (min-width: 1200px) {
+  div[class^="col"]{
+    border-style: solid;
+    border-color:red;
+  }
+}*/
