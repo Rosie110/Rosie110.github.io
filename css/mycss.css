@@ -9,6 +9,8 @@ body{
 /*  background-color: #141f24;*/
 /*  padding-top: 100px;*/
   font-family: 'Warnock Pro';
+ 
+  
     
 }
 
@@ -44,6 +46,19 @@ body{
 h1{
     font-size: 128px;
     color: #f25261;
+    
+}
+
+.mobileonly {
+    
+    display: none;
+}
+
+
+
+
+h1:hover{
+    text-decoration: underline;
 }
 
 h3{
@@ -88,6 +103,7 @@ p{
     position: inherit;
     padding-top: 350px;
     
+    
 }
 
 
@@ -95,13 +111,17 @@ p{
 /*    z-index: 50;*/
     position:relative;
     padding-top: 100px;
+    text-decoration: none;
     
 }
+
+
 
 .topright{
 /*    z-index: 50;*/
     position: relative;
     padding-top: 100px;
+    text-decoration: none;
 }
 
 
@@ -151,6 +171,12 @@ mix-blend-mode: difference;
     padding-bottom: 100px;
 }
 
+.row1{
+    
+    padding-top:80px;
+    padding-bottom: 100px;
+}
+
 
 /*this is my about pink row*/
 .pink{
@@ -187,12 +213,20 @@ h4{
     
 }
 
-.link1{}
+
 
 a.effect-underline {
     
 	 color: #141f24;
 }
+
+a.effect-underline3 {
+    
+ 
+	 color: #141f24;
+}
+
+
 
 h2 mark {
     background:none;
@@ -218,6 +252,12 @@ h2:hover mark {
 
 /*WORK PAGE CSS*/
 
+
+/*GET RID OF THAT STUPID BLUE*/
+
+
+
+
 /*CONTAINER 1*/
 .workbg{
     background-color:#f7f7f7;
@@ -230,7 +270,12 @@ h2:hover mark {
     /* z-index:50;*/
      position:absolute;
      padding-top: 200px;
+     
     
+}
+
+.lookleft:hover{
+    text-decoration: none;
 }
 
 .placeholder{
@@ -246,6 +291,7 @@ h2:hover mark {
     background-color:#f7f7f7;
     
 }
+
 
 /*CONTAINER 3*/
 
@@ -274,21 +320,27 @@ a{
 }
 
 /*SKIN HUNGER TEXT AND IMG*/
+/*SKIN HUNGER H1 CLASS FOR Z INDEX*/
 .skinhead{
     
      z-index:50;
      position:absolute;
      padding-top: 230px;
-     
+     color: #f25261;
+     text-decoration: none;
      
 }
 
-
-skinhead:hover{
-    text-decoration: underline;
-    color: #f25261
+/*SKIN HUNGER A HREF CLASS FOR LINK NOT TO TURN BLUE*/
+.skinme{
+     color: #f25261;
+     
 }
 
+.skinme:hover{
+    color: #f25261;
+    
+}
 
 .skinimg{
     /* position:inherit;*/
@@ -298,12 +350,23 @@ skinhead:hover{
 }
 
 /*CHANGING FUTURES TEXT AND IMG*/
+/*CHANGING FUTURES*/
 
-.futureshead{
+.futurehead{
      z-index:50;
      position:absolute;
-     padding-top: 230px;
+     padding-top: 200px;
      color: #f25261;
+    
+}
+/*CHANGING FUTURES A HREF CLASS FOR LINK NOT TO TURN BLUE*/
+
+.changeme{
+     color: #f25261;
+    
+}
+.changeme:hover{
+    color: #f25261;
     
 }
 
@@ -314,14 +377,26 @@ skinhead:hover{
     
 }
 
+
 /*PUSH AND PULL TEXT AND IMG*/
 
+/*PUSH AND PULL H1 CLASS FOR Z INDEX*/
 .push{
      z-index:50;
      position:absolute;
      padding-top: 230px;
      color: #f25261;
     
+}
+/*PUSH AND PULL A HREF CLASS FOR LINK NOT TO TURN BLUE*/
+
+.pushme{
+    color: #f25261;
+    
+    
+}
+.pushme:hover{
+    color: #f25261;
 }
 
 .pushimg{
@@ -366,7 +441,9 @@ skinhead:hover{
 }
 
 .skininfotext{
-    padding-top:100px;
+    padding-top:50px;
+    padding-bottom: 100px;
+    
    
 }
 
@@ -376,7 +453,52 @@ skinhead:hover{
 
 .skinbook{
     padding-top: 100px;
+    padding-bottom: 100px;
 }
+
+.skinhwebwalk{
+    padding-bottom: 100px;
+}
+
+.bag{
+    padding-top: 100px;
+}
+.butts{
+    padding-top: 100px;
+}
+
+.changeplus{
+    padding-top: 100px;
+    
+}
+
+
+
+
+
+/*CONTACT PAGE CSS*/
+
+.sayhi{
+    padding-top: 200px;
+}
+
+.contactmessage{
+    font-style: italic;
+    
+}
+
+.blog{
+    padding-top: 200px;
+}
+
+
+
+
+
+
+/*CLOSING CONTACT PAGE CSS*/
+
+
 
 
 
@@ -438,6 +560,64 @@ h5{
 }
 
 
+@media only screen and (max-width: 576px)
+{
+    
+h1{
+    font-size: 72px;
+    color: #f25261;
+        
+        
+}
+h2{
+    font-size: 48px;
+
+}
+
+p{
+    font-size:20px;
+    }
+    
+.nomobile{
+    display:none;
+        
+    }
+
+.topleft{
+    
+     font-size: 90px;   
+    }
+        
+
+
+.img1{
+    padding-bottom:200px;
+}
+
+.img2{
+    display:none;
+}
+
+.img3{
+    
+display: none;
+}
+
+.home{
+    background-color: #141f24;
+
+}
+
+}   
+
+
+
+    
+    
+    
+    
+    
+    
 /* 
 # Responsive breakpoints
 # https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints
