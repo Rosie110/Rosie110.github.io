@@ -270,6 +270,16 @@ h2:hover mark {
 /*GET RID OF THAT STUPID BLUE*/
 
 
+.mobileonly2{
+    
+display: none;
+
+        
+} 
+
+.nomobile1{
+display:inline-block;
+}
 
 
 /*CONTAINER 1*/
@@ -573,6 +583,19 @@ h5{
     
 }
 
+.contactmessage{
+    text-align: right;
+}
+
+
+
+.askme{
+    padding-top: 50px;
+}
+
+.askme2{
+    padding-top: 50px;
+}
 
 
 
@@ -640,8 +663,40 @@ display: none;
 display: block;
 padding-bottom: 100px;
         
-}    
+}
     
+    
+    
+    
+/*WORKPAGE GIFS*/
+
+    
+    
+.nomobilesearch{
+display: none;
+        
+}
+/*
+.mobileonlysearch{
+    
+display: block;
+
+        
+}  
+*/
+    
+    
+/*SKIN HUNGER GIFS*/
+
+
+.shblack{
+    
+    font-size: 72px;
+/*    padding-bottom: 300px;*/
+        
+}  
+    
+
     
 }   
 
