@@ -44,7 +44,8 @@ body{
 }
 
 h1{ 
-    font-family: 'Warnock Pro';
+    font-family:  'warnock-pro', serif;
+    font-weight: 400;
     font-size: 128px;
     color: #f25261;
     
@@ -70,19 +71,19 @@ h1:hover{
 
 h3{
     font-size: 40px;
-    font-family: 'Warnock Pro';
+    font-family:  'warnock-pro', serif;
 }
 
 h2{
     font-size: 72px;
-    font-family: 'Warnock Pro';
+    font-family:  'warnock-pro', serif;
     font-weight: 200;
     color: #141f24;
 }
 
 p{
     font-size: 24px;
-    font-family: 'Warnock Pro';
+    font-family:  'warnock-pro', serif;
     font-weight: 400;
     color: 141f24; 
 }
@@ -157,7 +158,7 @@ mix-blend-mode: difference;
 .worknav{
     font-size:24px;
     font-weight: 200;
-    font-family: 'Warnock Pro';
+    font-family: 'warnock-pro', serif;
    
     
 }
@@ -165,14 +166,14 @@ mix-blend-mode: difference;
 .contactnav{
     font-size:24px;
     font-weight: 200;
-    font-family: 'Warnock Pro';
+    font-family: 'warnock-pro', serif;
    
 }
 
 .skinhungernav{
     font-size:24px;
     font-weight: 200;
-    font-family: 'Warnock Pro';
+    font-family: 'warnock-pro', serif;
    
     
 }
@@ -215,7 +216,7 @@ mix-blend-mode: difference;
 
 h4{
     font-size: 24px;
-    font-family: 'Warnock Pro';
+    font-family: 'warnock-pro', serif;
     font-weight: 700;
     font-style: italic;
     color: #141f24;
@@ -541,7 +542,7 @@ footer {
 }
 
 .foot{
-    font-family: 'Warnock Pro';
+    font-family: 'warnock-pro', serif;
     font-weight:100;
     font-size: 16px;
     line-height: 24px;
@@ -556,7 +557,7 @@ ul li{
 }
 
 h5{
-    font-family: 'Warnock Pro';
+    font-family: 'warnock-pro', serif;
     font-weight:100;
     font-size: 20px;
     line-height: 28px;
