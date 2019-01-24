@@ -375,6 +375,27 @@ a{
      
 }
 
+/*WORK PAGE CSS*/
+
+.blogpics{
+    
+    
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.insp{
+    padding-bottom: 50px;
+}
+
+.inspopara{
+    padding-bottom: 100px;
+}
+
+
+
+
+
 /*SKIN HUNGER A HREF CLASS FOR LINK NOT TO TURN BLUE*/
 .skinme{
      color: #f25261;
@@ -392,6 +413,16 @@ a{
      padding-bottom: 100px;
     
 }
+
+/*
+.cfutureslink{
+    color: #141f24;
+}
+
+.cfutureslink:hover{
+    color: #141f24;
+}
+*/
 
 /*CHANGING FUTURES TEXT AND IMG*/
 /*CHANGING FUTURES*/
@@ -450,7 +481,13 @@ a{
     
 }
 
+.ppwayfinding{
+    padding-bottom: 100px;
+}
 
+.ppwayfinding2{
+    padding-bottom: 100px;
+}
 
 /*BANISHED TEXT AND IMG*/
 
