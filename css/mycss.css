@@ -1,8 +1,20 @@
 /*
 Custom CSS
 */
+@font-face {
+    font-family:'Light';
+    src: url(../fonts/WarnockPro-Light.otf) format("opentype");
+}
 
+@font-face {
+    font-family:'Regular';
+    src: url(../fonts/WarnockPro-Regular.otf) format("opentype");
+}
 
+@font-face {
+    font-family:'Bold';
+    src: url(../fonts/WarnockPro-Bold.otf) format("opentype");
+}
 
 body{
   
@@ -44,9 +56,12 @@ body{
 }
 
 h1{ 
-    font-family: 'Warnock Pro';
+/*    font-family:  'warnock-pro', serif;*/
+    font-family:'Light';
+    font-weight: 400;
     font-size: 128px;
     color: #f25261;
+    
     
 }
 
@@ -70,21 +85,23 @@ h1:hover{
 
 h3{
     font-size: 40px;
-    font-family: 'Warnock Pro';
+    font-family:'Bold';
 }
 
 h2{
     font-size: 72px;
-    font-family: 'Warnock Pro';
+    font-family:'Light';
     font-weight: 200;
     color: #141f24;
 }
 
+
+
 p{
     font-size: 24px;
-    font-family: 'Warnock Pro';
+    font-family:  'warnock-pro', serif;
     font-weight: 400;
-    color: 141f24; 
+    color: #141f24; 
 }
 
 /*this is my home main container*/
@@ -140,7 +157,7 @@ p{
 .aboutnav{
     font-size:24px;
     font-weight: 200;
-    font-family: 'Warnock Pro';
+    font-family:'Light';
    
     
 }
@@ -157,7 +174,7 @@ mix-blend-mode: difference;
 .worknav{
     font-size:24px;
     font-weight: 200;
-    font-family: 'Warnock Pro';
+    font-family:'Light';
    
     
 }
@@ -165,14 +182,14 @@ mix-blend-mode: difference;
 .contactnav{
     font-size:24px;
     font-weight: 200;
-    font-family: 'Warnock Pro';
+    font-family:'Light';
    
 }
 
 .skinhungernav{
     font-size:24px;
     font-weight: 200;
-    font-family: 'Warnock Pro';
+    font-family:'Light';
    
     
 }
@@ -196,12 +213,12 @@ mix-blend-mode: difference;
 .pink{
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: #f25261;
+    background-color: #f7f7f7;
 }
 
 /*this is my gif container*/
 .thinking{
-    background-color:#141f24;
+    background-color:#f0f0f0;
 }
   
 /*this is my moreaboutmecontainter*/
@@ -215,7 +232,7 @@ mix-blend-mode: difference;
 
 h4{
     font-size: 24px;
-    font-family: 'Warnock Pro';
+    font-family:'Bold';
     font-weight: 700;
     font-style: italic;
     color: #141f24;
@@ -250,13 +267,12 @@ h2 mark {
 h2:hover mark {
    background-color: #f7f7f7;
    text-decoration: underline;
-   color: #141f24;
+   color:#f25261;
 }
 
-.link2{
-    
+
 /*  text-decoration: underline;*/
-}
+
 
 /*CLOSING ABOUT PAGE CSS*/
 
@@ -305,7 +321,7 @@ display:inline-block;
 .placeholder{
     /*z-index:50;*/
     position:inherit;
-    padding-top: 150px;
+    padding-top:150px;
     padding-bottom: 100px;
 }
 
@@ -321,11 +337,15 @@ display:inline-block;
 
 .accordian{
     background-color: #f7f7f7;
+    
+    padding-bottom: 250px;
 }
 
+/*
 .rowdropdown{
     padding-top: 100px;
 }
+*/
 
 /*PROJECT LINKS CONTAINER*/
 
@@ -432,6 +452,39 @@ a{
 
 
 
+/*BANISHED TEXT AND IMG*/
+
+/*BANISHED H1 CLASS FOR Z INDEX*/
+.banished{
+     z-index:50;
+     position:absolute;
+     padding-top: 230px;
+     color: #f25261;
+    
+}
+/*PUSH AND PULL A HREF CLASS FOR LINK NOT TO TURN BLUE*/
+
+.banishme{
+    color: #f25261;
+    
+    
+}
+.banishme:hover{
+    color: #f25261;
+}
+
+.banishimg{
+    /* position:inherit;*/
+     padding-top: 100px;
+     padding-bottom: 100px;
+    
+}
+
+
+
+
+
+
 
 
 /*SKIN HUNGER CSS*/
@@ -496,6 +549,132 @@ a{
     
 }
 
+/*TUSLA PAGE CSS*/
+/*styling container 1*/
+.cfbanner{
+    background-color:#f7f7f7;
+    z-index: -1;
+    position: relative;
+    padding-top: 10px;
+}
+
+
+.cfblack{
+    
+     z-index:50;
+     position:absolute;
+     margin-top: 650px;
+     
+     padding-left: 0px;
+     font-size: 122px;
+}
+
+/*CHANGING FUTURES TEXT AND IMG*/
+
+.cfinfo{
+    padding-top: 200px;
+}
+
+.cfinfotext{
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+/
+
+/*CHANGING FUTURES SCREEN RECORDING*/
+.cfvid1
+{
+    
+    padding-bottom: 100px;
+}
+/*CHANGING FUTURES SCREEN RECORDING*/
+
+.cfweb1{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+.cfweb2{
+    
+    padding-bottom: 100px;
+    
+}
+
+.cfvid2
+{
+    
+    padding-bottom: 100px;
+}
+
+
+.cfmob
+{
+    
+    padding-bottom: 100px;
+}
+
+.cfvid3
+{
+    
+    padding-bottom: 100px;
+}
+
+.tuslachangeminus{
+    
+    padding-bottom: 100px;
+}
+
+
+/*PUSH AND PULL PAGE CSS*/
+.pushpullbanner{
+    background-color:#f7f7f7;
+    z-index: -1;
+    position: relative;
+    padding-top: 10px;
+}
+
+
+.ppblack{
+    
+     z-index:50;
+     position:absolute;
+     margin-top: 650px;
+     
+     padding-left: 0px;
+     font-size: 122px;
+}
+
+/*CHANGING FUTURES TEXT AND IMG*/
+
+.ppinfo{
+    padding-top: 300px;
+}
+
+.ppinfotext{
+    padding-top: 50px;
+    padding-bottom: 150px;
+    
+}
+
+.pp1{
+    padding-top: 100px;
+    padding-bottom: 25px; 
+}
+
+.pp2{
+    padding-top: 25px;
+    padding-bottom: 100px;
+    
+    
+}
+
+
+
+
+
+
 
 
 
@@ -532,8 +711,8 @@ footer {
    
     
    width: 100%;
-   background-color: #141f24;
-   color: #141f24;
+   background-color:#e1e1e1;
+   color: #e1e1e1;
    text-align: left;
     
    
@@ -541,12 +720,12 @@ footer {
 }
 
 .foot{
-    font-family: 'Warnock Pro';
+    font-family:'Light';
     font-weight:100;
     font-size: 16px;
     line-height: 24px;
-    color:#f7f7f7;
-    background-color: #141f24;
+    color:#141f24;
+    background-color: #e1e1e1;
     padding-top: 50px;
     padding-bottom: 80px;
 }
@@ -556,15 +735,15 @@ ul li{
 }
 
 h5{
-    font-family: 'Warnock Pro';
+   font-family:'Regular';
     font-weight:100;
     font-size: 20px;
     line-height: 28px;
-    color:#f7f7f7;
+    color:#141f24;
     
 }
 .h5one{
-    color: #141f24;
+    color: #e1e1e1;
 }
 
 /*underline classes for links in footer*/
